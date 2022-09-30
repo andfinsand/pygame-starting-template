@@ -2,7 +2,7 @@ import pygame
 
 WIDTH , HEIGHT = 900 , 500
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("")
+pygame.display.set_caption("") # Add game/app title of window here
 
 def main():
 
@@ -14,5 +14,5 @@ def main():
 
     pygame.quit()
 
-if __name__ == "__main__0":
+if __name__ == "__main__":
     main()
